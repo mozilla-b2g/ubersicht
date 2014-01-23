@@ -22,7 +22,7 @@
 $(function() {
   // The github user or organisation you'd like to load issues for
   // Defaults to hoodiehq!
-  var githubOrganisation = 'hoodiehq';
+  var githubOrganisation = 'mozilla-b2g';
   if(window.location.hash != ""){
     githubOrganisation = window.location.hash.substr(1);
   } else {
